@@ -1,0 +1,23 @@
+{
+  "name": "khalifa",
+  "version": "1.0.0",
+  "description": "A Simple Node.js Web Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sbrhutchens/khalifa"
+  },
+  "keywords": [
+    "framework"
+  ],
+  "author": "Stephen Hutchens <stephenhengineering@gmail.com> (http://stephenhutchens.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sbrhutchens/khalifa/issues"
+  },
+  "homepage": "https://github.com/sbrhutchens/khalifa",
+  "dependencies": {}
+}
