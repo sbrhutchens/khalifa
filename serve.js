@@ -4,11 +4,12 @@ Server.start = function(http, serverPort) {
 
   this.execute = function() {
     http.createServer(function(req,res) {
-      res.writeHead(200, {
-        'Content-Type' : 'text/html'
-      });
-      res.end('This is where views will be rendered');
-      console.log('Your app has started at port ' + serverPort);
+      var url = require('url'),
+          fs = require('fs'),
+          router = require('./route');
+
+      router.route(req, res, url, fs);
+      console.log('Your app is serving at ' + serverPort);
     }).listen(serverPort);
   }
 
