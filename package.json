@@ -19,5 +19,7 @@
     "url": "https://github.com/sbrhutchens/khalifa/issues"
   },
   "homepage": "https://github.com/sbrhutchens/khalifa",
-  "dependencies": {}
+  "dependencies": {
+    "less": "^2.5.3"
+  }
 }

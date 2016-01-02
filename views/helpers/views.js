@@ -8,7 +8,7 @@ View.buildLayout = function(title, description, content) {
   var title = html.replace(/{{title}}/g, title);
   var description = title.replace(/{{description}}/g, description);
   var content = description.replace(/{{content}}/g, content);
-
+  
   return content;
 }
 
