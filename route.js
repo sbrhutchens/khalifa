@@ -16,8 +16,8 @@ Router.route = function(req, res, url, fs) {
     });
   } else {
     if (pathName === '/') {
-      var homeController = require('./controllers/home');
-      homeController.generateContent(req, res);
+      var mainController = require('./controllers/main');
+      mainController.generateContent(req, res);
     } else {
       var lostController = require('./controllers/404');
       lostController.generateContent(req, res);

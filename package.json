@@ -20,6 +20,13 @@
   },
   "homepage": "https://github.com/sbrhutchens/khalifa",
   "dependencies": {
+    "autoprefixer": "^6.2.3",
+    "grunt": "^0.4.5",
     "less": "^2.5.3"
+  },
+  "devDependencies": {
+    "grunt-contrib-less": "^1.1.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "jit-grunt": "^0.9.1"
   }
 }
